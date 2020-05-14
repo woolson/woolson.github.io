@@ -1,56 +1,48 @@
 ---
-description: 在线制作徽章
+description: 雪碧洒到妙控键盘上了，自己动手拆卸妙控键盘按键清理（不含内部拆解）。
 ---
 
-# 🐳 NPMer徽章制作
+# 妙控键盘帽拆卸&清理
 
- [![](https://woolson.gitee.io/npmer-badge/Make%20with-ffffff-fb5656--heart-ee401f-right-ffffff-ededed-square-flat-plain.svg) ![](https://woolson.cn/npmer/github/release/b77db66c-dd6b-409a-a1f3-3ff0bf414c15?user=woolson&repo=npmer)](https://github.com/woolson/npmer)
+> * 📅 日期：2020年4月25日 星期日
+> * 🌤 天气：**晴朗微风**（花海的前奏…）
 
-{% hint style="success" %}
-使用SVG制作NPM徽章，NPM badge made with SVG.
-{% endhint %}
+![](.gitbook/assets/image%20%2831%29.png)
 
-## Preview 预览
+## 前言
 
-![&#x9996;&#x9875;&#x4EAE;&#x8272;&#x6A21;&#x5F0F;](.gitbook/assets/jie-ping-20200108-shang-wu-10.38.58.png)
+因不小心碰倒了雪碧瓶，把雪碧洒到妙控键盘上了，当时把键盘擦了一下并不影响正常使用。但是，过了几天里面的雪碧干了，键盘手感沾滞并且回弹无力影响到正常使用了，需要拆开清理一下。
 
-![&#x9996;&#x9875;&#x6697;&#x8272;&#x6A21;&#x5F0F;](.gitbook/assets/jie-ping-20200108-shang-wu-10.39.49.png)
+**键盘版本：国行版本**
 
-![&#x6A21;&#x677F;&#x4F7F;&#x7528;&#x52A8;&#x6001;&#x6570;&#x636E;](.gitbook/assets/jie-ping-20200108-shang-wu-10.40.47.png)
+## 工具
 
-![&#x76EE;&#x524D;&#x652F;&#x6301;&#x7684;&#x52A8;&#x6001;&#x6570;&#x636E;](.gitbook/assets/image%20%2811%29.png)
+* 尖锐钩子（不要太尖锐）；
+* 酒精或其他清洗剂；
+* 擦拭的布或纸；
 
-![&#x4EAE;&#x8272;&#x6697;&#x8272;&#x7EC6;&#x8282;&#x5BF9;&#x6BD4;](.gitbook/assets/image%20%2860%29.png)
+## 拆卸
 
-## Feature 特性
+<!-- {% hint style="danger" %} -->
+**拆卸需要小心，键帽上的凸出比较脆弱。**
+<!-- {% endhint %} -->
 
-### Badge 徽章
+<!-- {% embed url="https://player.youku.com/embed/XNDY0ODMyNzY4MA==" caption="拆卸视频" %} -->
 
-* Build with svg **`svg`实现不失真；**
-* Download badge file locally **支持下载徽章文件；**
-* Generate online link **支持生成在线链接**；
-* Customize left and right background color **支持左右自定义背景颜色**；
-* Customize icon **支持自定义图标**；
-* Customize icon position **支持自定义图标位置**；
-* Customize icon color **支持自定义图标颜色**；
-* Customize text color **支持自定义文字颜色**；
+## 安装
 
-### Template 模板
+### 支架拼装
 
-* Generate online link **支持生成在线链接**；
-* Customize left and right background color **支持左右自定义背景颜色**；
-* Customize icon **支持自定义图标**；
-* Customize icon position **支持自定义图标位置**；
-* Customize icon color **支持自定义图标颜色**；
-* Customize text color **支持自定义文字颜色**；
+![&#x952E;&#x5E3D;&#x652F;&#x67B6;&#x62FC;&#x88C5;](.gitbook/assets/img_3205.jpg)
 
-#### 模板动态数据
+### 支架安装
 
-* NPM Info 信息：
-  * Version 版本
-  * Download 下载量
-* GitHub Info 信息：
-  * Star 点赞数
-  * Release 发布版本
-* 添加中...
+![](.gitbook/assets/img_6024.jpg)
 
+### 键帽安装
+
+![](.gitbook/assets/img_9246.jpg)
+
+## 结束
+
+拆解过程还是比较简单的，只不过之前没拆过不知道会不会弄坏。不过，自己动手后蛮简单的，现在键盘已经恢复以前的手感了😁。
