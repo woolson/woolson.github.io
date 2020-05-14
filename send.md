@@ -6,9 +6,7 @@ description: 使用ImgurAPI、AWS S3或GitLab，上传本地图片、网络图�
 
  [![](https://woolson.gitee.io/npmer-badge/Version-555555-v1.6.0-44cc11-square-flat-plain.svg)](https://github.com/woolson/send) ![](https://woolson.gitee.io/npmer-badge/-555555-Star%20Me-46bc99-github-ffffff-left-square-flat-plain.svg)
 
-<!-- {% hint style="danger" %} -->
-**Don't upload private pictures. 不要上传隐私图片！**
-<!-- {% endhint %} -->
+> **Don't upload private pictures. 不要上传隐私图片！**
 
 ## Install 安装
 
@@ -30,15 +28,10 @@ npm install -g .
 
 Use [imgur](https://imgur.com/) upload api to get image link. So use command `send-img`.使用imgur api上传图片并获取图片链接，使用命令`send-img.`
 
-<!-- {% hint style="danger" %} -->
-**Maybe can not use with china IP address. 国内IP貌似无法使用。**
-<!-- {% endhint %} -->
-
-<!-- {% hint style="info" %} -->
-**Config info before use. 使用前先配置。**
+> **Maybe can not use with china IP address. 国内IP貌似无法使用。**
+> **Config info before use. 使用前先配置。**
 
 Public：1dfa83c47f8a089
-<!-- {% endhint %} -->
 
 ```yaml
 # Local file
@@ -58,9 +51,7 @@ send-img -e
 
 Use gitlab static resource to get image link. **You need to register a** [**gitlab**](https://gitlab.com/users/sign_in) **account first**.使用GitLab静态资源，**使用前需要先注册一个GitLab账号**。
 
-<!-- {% hint style="warning" %} -->
-**Config info before use. 使用前先配置。**
-<!-- {% endhint %} -->
+> **Config info before use. 使用前先配置。**
 
 ```yaml
 # Local file
@@ -80,9 +71,7 @@ send-gl -e
 
 Use AWS S3 to store image and get image public link. So use command `send-asw`. 使用AWS S3存储图片，并获取公开访问链接，使用命令`send-aws.`
 
-<!-- {% hint style="warning" %} -->
-**Config info before use. 使用前先配置。**
-<!-- {% endhint %} -->
+> **Config info before use. 使用前先配置。**
 
 ```yaml
 # Local file
@@ -121,14 +110,12 @@ send-img http://file/link.jpg
 
 ### From clipboard 上传剪贴板图片
 
-<!-- {% hint style="info" %} -->
-Use electron clipboard to do this. 使用的`electron`的剪贴板实现，国内如果出现安装`electron`缓慢的情况，按以下处理：
+> Use electron clipboard to do this. 使用的`electron`的剪贴板实现，国内如果出现安装`electron`缓慢的情况，按以下处理：
 
 ```bash
 # Add subline into .zshrc or .bashrc. 把下面一行加入.zshrc 或 .bashrc中
 export ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
 ```
-<!-- {% endhint %} -->
 
 ```bash
 # [From system clipboard 从剪贴板上传]
@@ -137,9 +124,7 @@ send-img [-c, --clipboard]
 
 ## Config 配置
 
-<!-- {% hint style="danger" %} -->
-**All config save in your computer. 所有的配置都存储在你自己的计算机中。**
-<!-- {% endhint %} -->
+> **All config save in your computer. 所有的配置都存储在你自己的计算机中。**
 
 Config file locate at `~/.sendrc`. 配置文件在`~/.sendrc`，如下：
 
