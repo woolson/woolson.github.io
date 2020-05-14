@@ -23,11 +23,9 @@ description: 雪碧洒到妙控键盘上了，自己动手拆卸妙控键盘按�
 
 ## 拆卸
 
-<!-- {% hint style="danger" %} -->
-**拆卸需要小心，键帽上的凸出比较脆弱。**
-<!-- {% endhint %} -->
+> **拆卸需要小心，键帽上的凸出比较脆弱。**
 
-<!-- {% embed url="https://player.youku.com/embed/XNDY0ODMyNzY4MA==" caption="拆卸视频" %} -->
+<!-- url="https://player.youku.com/embed/XNDY0ODMyNzY4MA==" caption="拆卸视频" -->
 
 ## 安装
 
