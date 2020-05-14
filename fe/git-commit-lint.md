@@ -41,9 +41,7 @@ description: 在项目中使用工具规范Git提交信息格式。
 
 任意一行都不应该超过100字符，这样的信息在`github`和各种各样的`git`工具上能有更好的可读性。
 
-<!-- {% hint style="warning" %} -->
-注意**Header 是必填**，_Body 和 Footer 是选填。_
-<!-- {% endhint %} -->
+> 注意**Header 是必填**，_Body 和 Footer 是选填。_
 
 **Header**
 
