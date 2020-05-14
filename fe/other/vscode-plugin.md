@@ -28,9 +28,9 @@ M：“Visual Studio Code”
 
 ### Git Graph
 
-{% hint style="success" %}
+<!-- {% hint style="success" %} -->
 可以看当前工作区Git的分支图，可以选择看那些分支，非常方便
-{% endhint %}
+<!-- {% endhint %} -->
 
 ![&#x6837;&#x5F0F;&#x9884;&#x89C8;](../../.gitbook/assets/image%20%2814%29.png)
 
@@ -40,9 +40,9 @@ M：“Visual Studio Code”
 
 ### Insert Date String
 
-{% hint style="success" %}
+<!-- {% hint style="success" %} -->
 用于在编辑器中插入当前的日期和时间，很方便
-{% endhint %}
+<!-- {% endhint %} -->
 
 ## ---2018-07-31更新---
 
@@ -50,9 +50,9 @@ M：“Visual Studio Code”
 
 ### Todo Tree
 
-{% hint style="success" %}
+<!-- {% hint style="success" %} -->
 列出项目中所有的TODO，侧面把握项目的完成度。点击可打开对应文件和TODO所在位置
-{% endhint %}
+<!-- {% endhint %} -->
 
 ![&#x5B98;&#x65B9;](https://raw.githubusercontent.com/Gruntfuggly/todo-tree/master/resources/screenshot.png)
 
@@ -60,9 +60,9 @@ M：“Visual Studio Code”
 
 ### Todo Highlight
 
-{% hint style="success" %}
+<!-- {% hint style="success" %} -->
 高亮打开的页面中所有TODO，看上去更清爽
-{% endhint %}
+<!-- {% endhint %} -->
 
 ![&#x6837;&#x5F0F;&#x9884;&#x89C8;](https://github.com/wayou/vscode-todo-highlight/raw/master/assets/material-night.png)
 
@@ -70,9 +70,9 @@ M：“Visual Studio Code”
 
 ### Git Lens
 
-{% hint style="success" %}
+<!-- {% hint style="success" %} -->
 丰富的Git信息插件，可以按行查看代码作者
-{% endhint %}
+<!-- {% endhint %} -->
 
 ![&#x884C;&#x7F16;&#x8F91;&#x5386;&#x53F2;](../../.gitbook/assets/image%20%2816%29.png)
 
@@ -82,15 +82,15 @@ M：“Visual Studio Code”
 
 ### VS-Code Vim
 
-{% hint style="success" %}
+<!-- {% hint style="success" %} -->
 喜欢用vim编辑器的同学必须装的，挺不错的。推荐加一个插件 `line-jumper`
-{% endhint %}
+<!-- {% endhint %} -->
 
 ### Line-jumper
 
-{% hint style="success" %}
+<!-- {% hint style="success" %} -->
 vim有翻半页和一页的快捷键。有时候vim的翻半页或者翻一页太多，但是一行一行翻又太慢。所以有个能介于半页和一行之间的跳行。就使用line-jumper这个插件，可配置一次跳多少行，我是5行
-{% endhint %}
+<!-- {% endhint %} -->
 
 ```javascript
 // 行数设置
@@ -129,9 +129,9 @@ vim有翻半页和一页的快捷键。有时候vim的翻半页或者翻一页�
 
 ### EditorConfig for VS Code
 
-{% hint style="success" %}
+<!-- {% hint style="success" %} -->
 如果你打开的项目根目录存在 `editorconfig` 文件，则会用文件中的配置覆盖编辑器默认设置
-{% endhint %}
+<!-- {% endhint %} -->
 
 ```text
 # editorconfig.org
@@ -155,9 +155,9 @@ trim_trailing_whitespace = false
 
 ### Guides
 
-{% hint style="success" %}
+<!-- {% hint style="success" %} -->
 用来扩展编辑器缩进导航显示，可以自定义的样式也很多
-{% endhint %}
+<!-- {% endhint %} -->
 
 ![&#x5B98;&#x65B9;&#x6837;&#x5F0F;](https://github.com/spywhere/vscode-guides/raw/master/images/screenshot.png)
 
@@ -236,9 +236,9 @@ trim_trailing_whitespace = false
 
 ### Material Icon Theme
 
-{% hint style="success" %}
+<!-- {% hint style="success" %} -->
 该插件提供了大量的图标，还可以自己自定义图标
-{% endhint %}
+<!-- {% endhint %} -->
 
 {% code title="settings.json" %}
 ```javascript
@@ -258,17 +258,17 @@ trim_trailing_whitespace = false
 
 ### Vetur
 
-{% hint style="success" %}
+<!-- {% hint style="success" %} -->
 Vue技术栈开发插件合集，vue开发必备
-{% endhint %}
+<!-- {% endhint %} -->
 
  
 
 ![GitHub Plus](https://thenikso.gallerycdn.vsassets.io/extensions/thenikso/github-plus-theme/1.1.3/1526373532357/Microsoft.VisualStudio.Services.Icons.Default)
 
-{% hint style="success" %}
+<!-- {% hint style="success" %} -->
 以前都是喜欢用暗色系的主题，久了后想换个亮一点的主题，然后找了一圈，这个主题真是超级喜欢
-{% endhint %}
+<!-- {% endhint %} -->
 
 ![&#x4E3B;&#x9898;&#x6837;&#x5F0F;&#x9884;&#x89C8;](https://github.com/thenikso/github-plus-theme/raw/master/screenshot.jpg)
 
