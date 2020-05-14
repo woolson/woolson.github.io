@@ -20,9 +20,7 @@ description: 使用Charles抓包，配置都正确就是一直unknown
 
 ### 查看PC的IP
 
-<!-- {% hint style="info" %} -->
 **操作：**系统偏好设置 -&gt; 网络。**记住PC的IP！！！**
-<!-- {% endhint %} -->
 
 ![&#x7CFB;&#x7EDF;&#x504F;&#x597D;&#x914D;&#x7F6E; -&amp;gt; &#x7F51;&#x7EDC;](../.gitbook/assets/image%20%2864%29.png)
 
