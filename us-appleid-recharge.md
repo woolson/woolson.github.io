@@ -30,17 +30,13 @@ description: 使用VISA信用卡给美区的AppleID充值购买软件
 
 ![&#x767B;&#x5F55;&#x8D60;&#x9001;&#x8FD8;&#x662F;&#x6E38;&#x5BA2;&#x6A21;&#x5F0F;](.gitbook/assets/image%20%2849%29.png)
 
-<!-- {% hint style="info" %} -->
-这里使用游客模式，点击**【Continue as Guest】按钮。**
-<!-- {% endhint %} -->
+> 这里使用游客模式，点击**【Continue as Guest】按钮。**
 
 ### 付款—付款方式
 
 ![&#x9009;&#x62E9;&#x4ED8;&#x6B3E;&#x65B9;&#x5F0F;](.gitbook/assets/image%20%2852%29.png)
 
-<!-- {% hint style="info" %} -->
-这里选择使用信用卡支付，**点击【Credit or Debit Card】按钮**。
-<!-- {% endhint %} -->
+> 这里选择使用信用卡支付，**点击【Credit or Debit Card】按钮**。
 
 ![&#x586B;&#x5199;&#x4FE1;&#x7528;&#x5361;&#x4FE1;&#x606F;](.gitbook/assets/image%20%2821%29.png)
 
