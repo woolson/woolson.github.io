@@ -12,23 +12,17 @@ description: 使用ImgurAPI、AWS S3或GitLab，上传本地图片、网络图�
 
 ## Install 安装
 
-{% tabs %}
-{% tab title="npm" %}
 ```bash
 # npm install 安装
 npm install -g @woolson/send
 ```
-{% endtab %}
 
-{% tab title="locally 本地" %}
 ```bash
 # install locally 本地安装
 git clone https://github.com/woolson/send.git
 cd send-file
 npm install -g .
 ```
-{% endtab %}
-{% endtabs %}
 
 ## Description 描述
 
@@ -149,30 +143,19 @@ send-img [-c, --clipboard]
 
 Config file locate at `~/.sendrc`. 配置文件在`~/.sendrc`，如下：
 
-{% tabs %}
-{% tab title="Imgur" %}
-{% code title="~/.sendrc" %}
 ```yaml
 # Imgur client ID
 # Creat yourself 创建自己的：https://api.imgur.com/oauth2/addclient
 # Or use default 或者使用：1dfa83c47f8a089
 IMAGUR_CLIENT_ID: 1dfa83c47f8a089
 ```
-{% endcode %}
-{% endtab %}
 
-{% tab title="GitLab" %}
-{% code title="~/.sendrc" %}
 ```yaml
 # GitLab config GitLab配置
 GITLAB_USER_NAME: <username>
 GITLAB_USER_PASS: <password>
 ```
-{% endcode %}
-{% endtab %}
 
-{% tab title="AWS" %}
-{% code title="~/.sendrc" %}
 ```yaml
 # AWS-S3 Config AWS-S3配置
 S3_ACCESS_ID: <Id>          # Required 必填
@@ -181,9 +164,6 @@ S3_BUCKET_NAME: <Bucket>    # Required 必填
 S3_REGION: <Region>         # Required 必填
 S3_PATH: <Path>             # Default value: temp/ 默认值：temp/
 ```
-{% endcode %}
-{% endtab %}
-{% endtabs %}
 
 ### Check Config 查看配置
 
@@ -191,6 +171,3 @@ S3_PATH: <Path>             # Default value: temp/ 默认值：temp/
 # Use this command to check all config 查看所有配置
 send-config
 ```
-
-
-
