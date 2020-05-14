@@ -37,5 +37,3 @@ description: 不需要信用卡和支付方式注册美区AppleID账号
 
 **给美区AppleID充值请看：**
 
-{% page-ref page="us-appleid-recharge.md" %}
-
