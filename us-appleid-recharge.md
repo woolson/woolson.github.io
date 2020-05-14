@@ -30,35 +30,35 @@ description: 使用VISA信用卡给美区的AppleID充值购买软件
 
 ![&#x767B;&#x5F55;&#x8D60;&#x9001;&#x8FD8;&#x662F;&#x6E38;&#x5BA2;&#x6A21;&#x5F0F;](.gitbook/assets/image%20%2849%29.png)
 
-{% hint style="info" %}
+<!-- {% hint style="info" %} -->
 这里使用游客模式，点击**【Continue as Guest】按钮。**
-{% endhint %}
+<!-- {% endhint %} -->
 
 ### 付款—付款方式
 
 ![&#x9009;&#x62E9;&#x4ED8;&#x6B3E;&#x65B9;&#x5F0F;](.gitbook/assets/image%20%2852%29.png)
 
-{% hint style="info" %}
+<!-- {% hint style="info" %} -->
 这里选择使用信用卡支付，**点击【Credit or Debit Card】按钮**。
-{% endhint %}
+<!-- {% endhint %} -->
 
 ![&#x586B;&#x5199;&#x4FE1;&#x7528;&#x5361;&#x4FE1;&#x606F;](.gitbook/assets/image%20%2821%29.png)
 
-{% hint style="danger" %}
+<!-- {% hint style="danger" %} -->
 这里正常填写信用卡信息，**不支持只有银联（信用卡上只有银联图标）的信用卡。**
-{% endhint %}
+<!-- {% endhint %} -->
 
 ### **付款—账单地址**
 
 ![&#x8D26;&#x5355;&#x5730;&#x5740;&#x548C;&#x8054;&#x7CFB;&#x65B9;&#x5F0F;](.gitbook/assets/image%20%2856%29.png)
 
-{% hint style="info" %}
+<!-- {% hint style="info" %} -->
 * 名称随意填写
 * 手机号和邮箱填写自用的即可
 * **地址和邮编等信息如图填写**
 
 **完成后点击【Review Your Order】按钮完成**
-{% endhint %}
+<!-- {% endhint %} -->
 
 ### 购买完成
 
