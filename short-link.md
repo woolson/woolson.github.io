@@ -6,25 +6,19 @@ description: Convert long link short with chinaz. 长连接转短连接。
 
  [![](https://woolson.cn/npmer/npm/version/7454c65c-2678-4ea4-9192-54d46e449fa7?name=@woolson/short-link) ![](https://woolson.gitee.io/npmer-badge/Make%20with-ffffff-fb5656--heart-ee401f-right-ffffff-ededed-square-flat-plain.svg)](https://github.com/woolson/short-link)
 
-{% hint style="danger" %}
+<!-- {% hint style="danger" %} -->
 Does not guarantee the duration of short link. 不保证短连接有效时长。
-{% endhint %}
+<!-- {% endhint %} -->
 
 ## Install 安装
 
-{% tabs %}
-{% tab title="NPM" %}
 ```bash
 npm install -g @woolson/short-link
 ```
-{% endtab %}
 
-{% tab title="GitHub Package" %}
 ```text
 npm --registry https://npm.pkg.github.com/woolson install -g @woolson/short-link
 ```
-{% endtab %}
-{% endtabs %}
 
 ## Usage 使用
 
@@ -44,6 +38,4 @@ Command `short-link` with `-c`. 使用`-c` 选项从剪贴板读取链接。
 ❝ [Short Link]: Link has copied, press Ctrl/Cmd + C to paste.
 ❝ [Short Link]: https://url.cn/544g8YS
 ```
-
-
 
