@@ -8,11 +8,11 @@ description: 基于微软RESTAPI开发的macOS客户端。
 
  ![](https://woolson.cn/npmer/github/release/b77db66c-dd6b-409a-a1f3-3ff0bf414c15?user=woolson&repo=microsoft-todo-mac) ![](https://woolson.github.io/npmer-badge/badge/ilcr-none-none-DarkMode%20%E6%9A%97%E9%BB%91%E6%A8%A1%E5%BC%8F-ffffff-46bc99-Supported%20%E6%94%AF%E6%8C%81-ffffff-555555-r-f-f.svg) ![](https://woolson.github.io/npmer-badge/badge/ilcr-none-none-TouchBar%20%E8%A7%A6%E6%8E%A7%E6%A0%8F-ffffff-16a4e1-Supported%20%E6%94%AF%E6%8C%81-ffffff-555555-r-f-f.svg)
 
-{% hint style="info" %}
+<!-- {% hint style="info" %} -->
 🎉**TIP 提示**
 
 Welcome to **★Star★** if you like it, Thanks. 喜欢请点下 **★Star★**，谢谢。
-{% endhint %}
+<!-- {% endhint %} -->
 
 ### Tech 技术信息
 
