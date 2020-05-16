@@ -70,10 +70,11 @@
       be: document.getElementById('beContent'),
       other: document.getElementById('otherContent')
     }
+    var sections = ['fe', 'be', 'other'];
 
     function swithSection (name) {
       location.hash = name;
-      var contents = ['fe', 'be', 'other'].filter(function (item) {
+      var contents = sections.filter(function (item) {
         return !item.includes(name);
       });
       contents.forEach(function(item) {
@@ -84,7 +85,11 @@
       $content[name].style.display = 'block';
     };
 
-    swithSection(location.hash || 'fe');
+    var hashSection = location.hash.replace('#', '');
+    if (!sections.includes(hashSection)) {
+      hashSection = fe;
+    }
+    swithSection(hashSection);
 
     $handler.fe.addEventListener('click', function () {
       swithSection('fe')
