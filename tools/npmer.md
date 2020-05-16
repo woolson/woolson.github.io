@@ -1,6 +1,7 @@
 ---
 description: 在线制作徽章
 date: 2018-10-18 21:24:11
+comments: true
 ---
 
 # 🐳 NPMer徽章制作

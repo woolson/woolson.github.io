@@ -1,6 +1,7 @@
 ---
 description: Convert long link short with chinaz. 长连接转短连接。
 date: 2020-01-10 19:55:08
+comments: true
 ---
 
 # 🦎 Short Link 短连接

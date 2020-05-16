@@ -1,6 +1,8 @@
 ---
 description: 使用ImgurAPI、AWS S3或GitLab，上传本地图片、网络图片或剪贴板图片获取图片链接。
 date: 2019-05-06 20:41:14
+comments: true
+recommend: true
 ---
 
 # 🐫 Send 图片转链接
