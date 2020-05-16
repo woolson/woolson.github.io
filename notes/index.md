@@ -1,6 +1,7 @@
 <style>
   .content-tabs {
-    margin-top: -15px;
+    margin-top: -10px;
+    margin-bottom: 30px !important;
   }
   .content-tabs .current {
     font-weight: bold;
@@ -82,15 +83,17 @@
       $content[name].style.display = 'block';
     };
 
-    $handler.fe = function() {
+    console.log($handler, $content)
+
+    $handler.fe.addEventListener('click', function () {
       swithSection('fe')
-    };
-    $handler.be = function() {
+    })
+    $handler.be.addEventListener('click', function () {
       swithSection('be')
-    };
-    $handler.other = function() {
+    })
+    $handler.other.addEventListener('click', function () {
       swithSection('other')
-    };
+    })
   };
 })();
 </script>
