@@ -11,7 +11,7 @@ description: 服务器正确响应，浏览器或Postman无法正确获取响应
 
 在本地`Debug`，服务器已经正确返回响应内容。部署开发环境后浏览器或`PostMan`无法正确获取响应内容。浏览器会在控制台输出以下错误。
 
-![net::ERR\_CONTENT\_DECODING\_FAILED 201](../../.gitbook/assets/image%20%2832%29.png)
+![net::ERR\_CONTENT\_DECODING\_FAILED 201](assets/image%20%2832%29.png)
 
 ## 问题解决
 

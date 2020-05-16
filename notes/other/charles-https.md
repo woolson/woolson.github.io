@@ -7,7 +7,7 @@ description: 使用Charles抓包，配置都正确就是一直unknown
 > * 📅 **日期**：2019年10月02日 星期三
 > * 🌤 **天气**：多云微风
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](assets/image%20%2817%29.png)
 
 ## 准备
 
@@ -22,29 +22,29 @@ description: 使用Charles抓包，配置都正确就是一直unknown
 
 **操作：**系统偏好设置 -&gt; 网络。**记住PC的IP！！！**
 
-![&#x7CFB;&#x7EDF;&#x504F;&#x597D;&#x914D;&#x7F6E; -&amp;gt; &#x7F51;&#x7EDC;](../.gitbook/assets/image%20%2864%29.png)
+![&#x7CFB;&#x7EDF;&#x504F;&#x597D;&#x914D;&#x7F6E; -&amp;gt; &#x7F51;&#x7EDC;](assets/image%20%2864%29.png)
 
 ### 查看Charles端口
 
 **操作：**菜单栏 -&gt; Proxy -&gt; Proxy Settings。**记住Charles的端口！！！**
 
-![HTTP Proxy Port&#x4E3A;8888](../.gitbook/assets/image%20%285%29.png)
+![HTTP Proxy Port&#x4E3A;8888](assets/image%20%285%29.png)
 
 ### 安装Charles证书
 
 **操作：**菜单栏 -&gt; Help -&gt; SSL Proxying -&gt; Install Charles Root Certificate。
 
-![&#x5B89;&#x88C5;PC&#x7AEF;SSL&#x8BC1;&#x4E66;](../.gitbook/assets/image%20%2847%29.png)
+![&#x5B89;&#x88C5;PC&#x7AEF;SSL&#x8BC1;&#x4E66;](assets/image%20%2847%29.png)
 
 显示Charles Proxy CA这个证书不被信任。
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](assets/image%20%2812%29.png)
 
 **操作：【**双击打开】列表中的Charles证书 -&gt; 【展开】信任 -&gt; 【修改】使用此证书时为【始终信任】，然后关闭此窗口即可。
 
 **此时：**【此根证书不被信任】变为【此证书已标记为受此账户信任】**。**
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](assets/image%20%284%29.png)
 
 ### 配置Charles的SSL
 
@@ -55,7 +55,7 @@ description: 使用Charles抓包，配置都正确就是一直unknown
 3. 点击Add按钮，添加：\*.443；
 4. 点击OK保存。
 
-![](../.gitbook/assets/image%20%2861%29.png)
+![](assets/image%20%2861%29.png)
 
 ## 设备配置（iPhone）
 
@@ -73,17 +73,17 @@ description: 使用Charles抓包，配置都正确就是一直unknown
 
 **操作：**手机使用Safari浏览器打开[chls.pro/ssl](https://chls.pro/ssl)，并允许安装。
 
-![](../.gitbook/assets/image%20%2841%29.png)
+![](assets/image%20%2841%29.png)
 
 ### 信任Charles证书
 
 **操作：**手机打开：设置 -&gt; 通用 -&gt; 关于本机 -&gt; 证书信任设置，**信任你安装的Charles证书**。
 
-![](../.gitbook/assets/image%20%2857%29.png)
+![](assets/image%20%2857%29.png)
 
 ## 开始抓包
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](assets/image%20%286%29.png)
 
 打开手机并请求，然后就能看到HTTPS的响应明文，**微信小程序亦可。**
 

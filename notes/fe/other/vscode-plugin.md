@@ -7,7 +7,7 @@ description: 个人使用的多个好用的插件
 > * 📅 **日期**：2018年6月10日 星期日
 > * 🌤 **天气**：下雨 ☔️
 
-![](../../.gitbook/assets/image%20%2862%29.png)
+![](assets/image%20%2862%29.png)
 
 ```text
 U：“你用过最强大的编辑器是什么？” 
@@ -24,17 +24,17 @@ M：“Visual Studio Code”
 
 ## ---2019-09-23更新---
 
-![Git Graph](../../.gitbook/assets/image%20%2826%29.png)
+![Git Graph](assets/image%20%2826%29.png)
 
 ### Git Graph
 
 可以看当前工作区Git的分支图，可以选择看那些分支，非常方便
 
-![&#x6837;&#x5F0F;&#x9884;&#x89C8;](../../.gitbook/assets/image%20%2814%29.png)
+![&#x6837;&#x5F0F;&#x9884;&#x89C8;](assets/image%20%2814%29.png)
 
 ## ---2018-11-12更新--- 
 
-![Insert date string](../../.gitbook/assets/image%20%2822%29.png)
+![Insert date string](assets/image%20%2822%29.png)
 
 ### Insert Date String
 
@@ -58,17 +58,17 @@ M：“Visual Studio Code”
 
 ![&#x6837;&#x5F0F;&#x9884;&#x89C8;](https://github.com/wayou/vscode-todo-highlight/raw/master/assets/material-night.png)
 
-![Git Lens](../../.gitbook/assets/image%20%2827%29.png)
+![Git Lens](assets/image%20%2827%29.png)
 
 ### Git Lens
 
 丰富的Git信息插件，可以按行查看代码作者
 
-![&#x884C;&#x7F16;&#x8F91;&#x5386;&#x53F2;](../../.gitbook/assets/image%20%2816%29.png)
+![&#x884C;&#x7F16;&#x8F91;&#x5386;&#x53F2;](assets/image%20%2816%29.png)
 
-![&#x884C;&#x4EE3;&#x7801;&#x4F5C;&#x8005;&#x548C;&#x4FEE;&#x6539;&#x8BB0;&#x5F55;](../../.gitbook/assets/image%20%2833%29.png)
+![&#x884C;&#x4EE3;&#x7801;&#x4F5C;&#x8005;&#x548C;&#x4FEE;&#x6539;&#x8BB0;&#x5F55;](assets/image%20%2833%29.png)
 
-![VS-Code Vim](../../.gitbook/assets/image%20%2813%29.png)
+![VS-Code Vim](assets/image%20%2813%29.png)
 
 ### VS-Code Vim
 
@@ -210,7 +210,7 @@ trim_trailing_whitespace = false
 
 ![&#x7F29;&#x8FDB;&#x6837;&#x5F0F;](http://ww1.sinaimg.cn/large/708e7d29gy1fs3yfw1ojcj21860b8aby)
 
-![Material Icon Theme](../../.gitbook/assets/image%20%282%29.png)
+![Material Icon Theme](assets/image%20%282%29.png)
 
 ### Material Icon Theme
 
@@ -228,7 +228,7 @@ trim_trailing_whitespace = false
 
  
 
-![Vetur](../../.gitbook/assets/image%20%2840%29.png)
+![Vetur](assets/image%20%2840%29.png)
 
 ### Vetur
 

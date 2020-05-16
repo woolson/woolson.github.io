@@ -1,8 +1,10 @@
 <ul>
   {% for post in site.pages %}
-    <li>
-      {{post}}
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    {% assign postfolder = post.url | split: "/" %}
+    {% if postfolder[1] == 'notes' %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
