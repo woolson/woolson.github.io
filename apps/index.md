@@ -1,3 +1,4 @@
+<div>
 {% for post in site.pages %}
   {% assign postfolder = post.url | split: "/" %}
   {% if postfolder[1] == 'apps' %}
@@ -5,3 +6,4 @@
     <p><a href="{{ post.url }}">{{ post.title }}</a></p>
   {% endif %}
 {% endfor %}
+</div>
