@@ -86,7 +86,7 @@
 
     var hashSection = location.hash.replace('#', '');
     if (!sections.includes(hashSection)) {
-      hashSection = fe;
+      hashSection = 'fe';
     }
     swithSection(hashSection);
 
