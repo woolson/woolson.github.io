@@ -2,6 +2,7 @@ theme: jekyll-theme-cayman
 title: Woolson Blog
 description: 道虽迩，不行不至，事虽小，不为不成。
 sass:
+  sass_dir: _sass
   style: compressed
 plugins:
 - jekyll-feed

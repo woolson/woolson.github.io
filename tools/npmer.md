@@ -10,15 +10,15 @@ description: 在线制作徽章
 
 ## Preview 预览
 
-![&#x9996;&#x9875;&#x4EAE;&#x8272;&#x6A21;&#x5F0F;](assets/jie-ping-20200108-shang-wu-10.38.58.png)
+![&#x9996;&#x9875;&#x4EAE;&#x8272;&#x6A21;&#x5F0F;](/assets/jie-ping-20200108-shang-wu-10.38.58.png)
 
-![&#x9996;&#x9875;&#x6697;&#x8272;&#x6A21;&#x5F0F;](assets/jie-ping-20200108-shang-wu-10.39.49.png)
+![&#x9996;&#x9875;&#x6697;&#x8272;&#x6A21;&#x5F0F;](/assets/jie-ping-20200108-shang-wu-10.39.49.png)
 
-![&#x6A21;&#x677F;&#x4F7F;&#x7528;&#x52A8;&#x6001;&#x6570;&#x636E;](assets/jie-ping-20200108-shang-wu-10.40.47.png)
+![&#x6A21;&#x677F;&#x4F7F;&#x7528;&#x52A8;&#x6001;&#x6570;&#x636E;](/assets/jie-ping-20200108-shang-wu-10.40.47.png)
 
-![&#x76EE;&#x524D;&#x652F;&#x6301;&#x7684;&#x52A8;&#x6001;&#x6570;&#x636E;](assets/image%20%2811%29.png)
+![&#x76EE;&#x524D;&#x652F;&#x6301;&#x7684;&#x52A8;&#x6001;&#x6570;&#x636E;](/assets/image%20%2811%29.png)
 
-![&#x4EAE;&#x8272;&#x6697;&#x8272;&#x7EC6;&#x8282;&#x5BF9;&#x6BD4;](assets/image%20%2860%29.png)
+![&#x4EAE;&#x8272;&#x6697;&#x8272;&#x7EC6;&#x8282;&#x5BF9;&#x6BD4;](/assets/image%20%2860%29.png)
 
 ## Feature 特性
 
