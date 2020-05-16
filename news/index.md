@@ -1,5 +1,6 @@
 <ul>
-  {% for post in site.pages %}
+  {% assign sorted = (site.pages | sort: 'date') | reverse %}
+  {% for post in sorted %}
     {% assign postfolder = post.url | split: "/" %}
     {% if postfolder[1] == 'news' %}
       <li>
