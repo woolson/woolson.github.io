@@ -73,11 +73,11 @@
 
     function swithSection (name) {
       var contents = ['fe', 'be', 'other'].filter(function (item) {
-        return item.includes(name);
+        return !item.includes(name);
       });
       contents.forEach(function(item) {
-        $handler[name].className = '';
-        $content[name].style.display = 'none';
+        $handler[item].className = '';
+        $content[item].style.display = 'none';
       })
       $handler[name].className = 'current';
       $content[name].style.display = 'block';
