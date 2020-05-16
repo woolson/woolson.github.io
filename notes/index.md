@@ -1,9 +1,13 @@
 <style>
+  .content-tabs {
+    margin-top: -15px;
+  }
   .content-tabs .current {
     font-weight: bold;
     border-color: #1e6bb8;
   }
   .content-tabs span {
+    cursor: pointer;
     transition: all .2s;
     color: #1e6bb8;
     border-bottom: 2px solid transparent;
@@ -11,10 +15,10 @@
 </style>
 
 <p class="content-tabs">
-  <span id="feHandler">FE 前端</span>
-  &nbsp;|&nbsp;
+  <span id="feHandler" class="current">FE 前端</span>
+  &nbsp;/&nbsp;
   <span id="beHandler">BE 后端</span>
-  &nbsp;|&nbsp;
+  &nbsp;/&nbsp;
   <span id="otherHandler">Other 其他</span>
 </p>
 
@@ -83,7 +87,7 @@
   $handler.be = function() {
     swithSection('be')
   };
-  handler.other = function() {
+  $handler.other = function() {
     swithSection('other')
   };
 })();
