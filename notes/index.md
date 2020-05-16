@@ -4,7 +4,6 @@
     margin-bottom: 30px !important;
   }
   .content-tabs .current {
-    font-weight: bold;
     border-color: #1e6bb8;
   }
   .content-tabs span {
