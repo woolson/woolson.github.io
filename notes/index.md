@@ -72,6 +72,7 @@
     }
 
     function swithSection (name) {
+      location.hash = name;
       var contents = ['fe', 'be', 'other'].filter(function (item) {
         return !item.includes(name);
       });
@@ -83,7 +84,7 @@
       $content[name].style.display = 'block';
     };
 
-    console.log($handler, $content)
+    swithSection(location.hash || 'fe');
 
     $handler.fe.addEventListener('click', function () {
       swithSection('fe')
