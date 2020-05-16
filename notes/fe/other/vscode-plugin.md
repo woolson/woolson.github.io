@@ -56,7 +56,7 @@ M：“Visual Studio Code”
 
 高亮打开的页面中所有TODO，看上去更清爽
 
-![&#x6837;&#x5F0F;&#x9884;&#x89C8;](https://github.com/wayou/vscode-todo-highlight/raw/master//assets/image/material-night.png)
+![&#x6837;&#x5F0F;&#x9884;&#x89C8;](https://github.com/wayou/vscode-todo-highlight/raw/master/assets/image/material-night.png)
 
 ![Git Lens](/assets/image/image%20%2827%29.png)
 
