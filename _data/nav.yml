@@ -13,6 +13,6 @@
 - title: Share
   link: /share/
   show_on_mobile: false
-# - title: News
-#   link: /news/
-#   show_on_mobile: true
+- title: About
+  link: /about/
+  show_on_mobile: true
