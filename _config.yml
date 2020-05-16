@@ -1,5 +1,12 @@
 theme: jekyll-theme-cayman
 title: Woolson Blog
 description: 道虽迩，不行不至，事虽小，不为不成。
-include:
-- .gitbook
+plugins:
+- jekyll-feed
+- jekyll-redirect-from
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-avatar
+- jemoji
+- jekyll-mentions
+- jekyll-include-cache

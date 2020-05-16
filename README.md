@@ -4,9 +4,9 @@
 
 ## Tool 工具 <a id="tool"></a>
 
-* [🐫 Send 图片转链接](send.md)
-* [🐳 NPMer徽章制作](npmer.md)
-* [🦎 Short Link 短连接](short-link.md)
+* [🐫 Send 图片转链接](app/send.md)
+* [🐳 NPMer徽章制作](app/npmer.md)
+* [🦎 Short Link 短连接](app/short-link.md)
 
 ## FrontEnd 前端 <a id="fe"></a>
 
@@ -18,9 +18,9 @@
 
 ## BackEnd 后端 <a id="be"></a>
 
-* [异常处理](be/yi-chang-chu-li/README.md)
-  * [ENOTFOUND](be/yi-chang-chu-li/enotfound.md)
-  * [ERR\_CONTENT\_DECODING\_FAILED](be/yi-chang-chu-li/err_content_decoding_failed.md)
+* [异常处理](be/exception/README.md)
+  * [ENOTFOUND](be/exception/enotfound.md)
+  * [ERR\_CONTENT\_DECODING\_FAILED](be/exception/err_content_decoding_failed.md)
 * [MarkdownJS模块使用](be/markdown-in-nodejs.md)
 * [Github OAuth](be/github-oauth.md)
 
@@ -32,6 +32,6 @@
 
 ## Share 分享 <a id="share"></a>
 
-* [妙控键盘帽拆卸&清理](magic-keyboard-clean.md)
-* [美区AppleID注册](us-appleid-register.md)
-* [美区AppleID充值](us-appleid-recharge.md)
+* [妙控键盘帽拆卸&清理](share/magic-keyboard-clean.md)
+* [美区AppleID注册](share/us-appleid-register.md)
+* [美区AppleID充值](share/us-appleid-recharge.md)

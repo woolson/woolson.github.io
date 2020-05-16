@@ -1,0 +1,15 @@
+- title: APPs
+  link: /apps/
+  show_on_mobile: true
+- title: Tools
+  link: /tools/
+  show_on_mobile: true
+- title: Notes
+  link: /notes/
+  show_on_mobile: true
+- title: Share
+  link: /share/
+  show_on_mobile: false
+- title: News
+  link: /news/
+  show_on_mobile: true
