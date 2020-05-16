@@ -1,5 +1,6 @@
 ---
 description: 配置vscode插件配置和使用方式。
+date: 2018-06-15 19:02:41
 ---
 
 # VSCode ESLint

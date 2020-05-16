@@ -1,5 +1,6 @@
 ---
 description: NodeJS使用markdown-js模块解析md文件。
+date: 2016-10-22 21:12:49
 ---
 
 # MarkdownJS模块使用
