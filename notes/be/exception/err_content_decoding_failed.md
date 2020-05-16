@@ -1,6 +1,7 @@
 ---
 description: 服务器正确响应，浏览器或Postman无法正确获取响应
 date: 2019-11-13 17:02:22
+comments: true
 ---
 
 # ERR\_CONTENT\_DECODING\_FAILED

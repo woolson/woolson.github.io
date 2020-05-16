@@ -1,5 +1,6 @@
 ---
 date: 2017-05-12 19:55:02
+comments: true
 ---
 
 # macOS上使用zsh

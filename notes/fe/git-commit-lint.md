@@ -1,6 +1,7 @@
 ---
 description: 在项目中使用工具规范Git提交信息格式。
 date: 2018-08-15 22:38:51
+comments: true
 ---
 
 # Git提交信息规范

@@ -1,6 +1,7 @@
 ---
 description: 使用VISA信用卡给美区的AppleID充值购买软件
 date: 2019-12-25 20:35:12
+comments: true
 ---
 
 # 美区AppleID充值

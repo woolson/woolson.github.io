@@ -1,6 +1,7 @@
 ---
 description: 个人使用的多个好用的插件
 date: 2018-06-10 21:02:38
+comments: true
 ---
 
 # VSCode插件推荐

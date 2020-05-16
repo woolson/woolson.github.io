@@ -1,6 +1,7 @@
 ---
 description: 使用github登录自己的网站
 date: 2018-03-11 15:32:18
+comments: true
 ---
 
 # Github OAuth

@@ -1,6 +1,7 @@
 ---
 description: 不需要信用卡和支付方式注册美区AppleID账号
 date: 2019-12-25 20:15:10
+comments: true
 ---
 
 # 美区AppleID注册

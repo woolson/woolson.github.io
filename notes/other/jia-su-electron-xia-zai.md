@@ -1,6 +1,7 @@
 ---
 description: 由于国内网络原因，electron包下载速度很慢。
 date: 2018-08-09 12:52:32
+comments: true
 ---
 
 # 加速Electron下载

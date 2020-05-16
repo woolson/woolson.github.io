@@ -1,5 +1,5 @@
 <ul>
-  {% for post in site.pages %}
+  {% for post in site.pages | sort: "date" %}
     {% assign postfolder = post.url | split: "/" %}
     {% if postfolder[1] == 'apps' %}
       <li>
