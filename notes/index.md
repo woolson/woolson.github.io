@@ -58,37 +58,39 @@
 
 <script>
 (function() {
-  var $handler = {
-    fe: document.getElementById('feHandler'),
-    be: document.getElementById('beHandler'),
-    other: document.getElementById('otherHandler')
-  }
-  var $content = {
-    fe: document.getElementById('feContent'),
-    be: document.getElementById('beContent'),
-    other: document.getElementById('otherContent')
-  }
+  window.onload = funtion () {
+    var $handler = {
+      fe: document.getElementById('feHandler'),
+      be: document.getElementById('beHandler'),
+      other: document.getElementById('otherHandler')
+    }
+    var $content = {
+      fe: document.getElementById('feContent'),
+      be: document.getElementById('beContent'),
+      other: document.getElementById('otherContent')
+    }
 
-  function swithSection (name) {
-    var contents = ['fe', 'be', 'other'].filter(function (item) {
-      return item.includes(name);
-    });
-    contents.forEach(function(item) {
-      $handler[name].className = '';
-      $content[name].style.display = 'none';
-    })
-    $handler[name].className = 'current';
-    $content[name].style.display = 'block';
-  };
+    function swithSection (name) {
+      var contents = ['fe', 'be', 'other'].filter(function (item) {
+        return item.includes(name);
+      });
+      contents.forEach(function(item) {
+        $handler[name].className = '';
+        $content[name].style.display = 'none';
+      })
+      $handler[name].className = 'current';
+      $content[name].style.display = 'block';
+    };
 
-  $handler.fe = function() {
-    swithSection('fe')
-  };
-  $handler.be = function() {
-    swithSection('be')
-  };
-  $handler.other = function() {
-    swithSection('other')
+    $handler.fe = function() {
+      swithSection('fe')
+    };
+    $handler.be = function() {
+      swithSection('be')
+    };
+    $handler.other = function() {
+      swithSection('other')
+    };
   };
 })();
 </script>
