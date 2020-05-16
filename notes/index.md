@@ -59,7 +59,7 @@
 
 <script>
 (function() {
-  window.onload = funtion () {
+  window.onload = function () {
     var $handler = {
       fe: document.getElementById('feHandler'),
       be: document.getElementById('beHandler'),
