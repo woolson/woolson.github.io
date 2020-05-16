@@ -16,14 +16,14 @@
 </style>
 
 <p class="content-tabs">
-  <span id="feHandler" class="current">FE 前端</span>
+  <span id="feHandler">FE 前端</span>
   &nbsp;/&nbsp;
   <span id="beHandler">BE 后端</span>
   &nbsp;/&nbsp;
   <span id="otherHandler">Other 其他</span>
 </p>
 
-<ul id="feContent">
+<ul id="feContent" style="display:none">
   {% assign sorted = (site.pages | sort: 'date') | reverse %}
   {% for post in sorted %}
     {% if post.path contains 'notes/fe' %}
