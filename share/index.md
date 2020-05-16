@@ -1,10 +1,7 @@
-<ul>
-  {% for post in site.pages %}
-    {% assign postfolder = post.url | split: "/" %}
-    {% if postfolder[1] == 'share' %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+{% for post in site.pages %}
+  {% assign postfolder = post.url | split: "/" %}
+  {% if postfolder[1] == 'share' %}
+    <p>{{post.date | date: "%Y-%m-%d %H:%M"}}</p>
+    <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+  {% endif %}
+{% endfor %}
