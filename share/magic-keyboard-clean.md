@@ -27,7 +27,7 @@ comments: true
 
 > **拆卸需要小心，键帽上的凸出比较脆弱。**
 
-<iframe height=498 width="100%" src='https://player.youku.com/embed/XNDY0ODMyNzY4MA==' frameborder=0 'allowfullscreen'></iframe>
+<iframe height="498" width="100%" src="https://player.youku.com/embed/XNDY0ODMyNzY4MA==" frameborder="0" allowfullscreen></iframe>
 
 ## 安装
 
