@@ -1,23 +1,4 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
-.main-nav ul {
-  display: flex;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-.main-nav ul li {
-  padding: 5px 15px;
-  border-bottom: 2px solid transparent;
-}
-.main-nav ul li.current {
-  border-color: white;
-}
-.main-nav ul li a {
-  color: white;
-  text-decoration: none;
-}
+@import 'jekyll-theme-cayman';
