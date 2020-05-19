@@ -2,7 +2,7 @@
   {% assign sorted = (site.pages | sort: 'date') | reverse %}
   {% for post in sorted %}
     {% assign postfolder = post.url | split: "/" %}
-    {% if postfolder[1] == 'share' %}
+    {% if postfolder[1] == 'share' and post.title %}
       <li>
         <p>{{post.date | date: "%Y-%m-%d %H:%M"}}</p>
         <p><a href="{{ post.url }}">{{ post.title }}</a></p>

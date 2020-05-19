@@ -25,7 +25,7 @@
 <ul id="feContent" style="display:none">
   {% assign sorted = (site.pages | sort: 'date') | reverse %}
   {% for post in sorted %}
-    {% if post.path contains 'notes/fe' %}
+    {% if post.path contains 'notes/fe' and post.title %}
       <li>
         <p>{{post.date | date: "%Y-%m-%d %H:%M"}}</p>
         <p><a href="{{ post.url }}">{{ post.title }}</a></p>
@@ -36,7 +36,7 @@
 <ul id="beContent" style="display:none">
   {% assign sorted = (site.pages | sort: 'date') | reverse %}
   {% for post in sorted %}
-    {% if post.path contains 'notes/be' %}
+    {% if post.path contains 'notes/be' and post.title %}
       <li>
         <p>{{post.date | date: "%Y-%m-%d %H:%M"}}</p>
         <p><a href="{{ post.url }}">{{ post.title }}</a></p>
@@ -47,7 +47,7 @@
 <ul id="otherContent" style="display:none">
   {% assign sorted = (site.pages | sort: 'date') | reverse %}
   {% for post in sorted %}
-    {% if post.path contains 'notes/other' %}
+    {% if post.path contains 'notes/other' and post.title %}
       <li>
         <p>{{post.date | date: "%Y-%m-%d %H:%M"}}</p>
         <p><a href="{{ post.url }}">{{ post.title }}</a></p>
