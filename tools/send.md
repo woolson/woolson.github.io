@@ -7,7 +7,7 @@ recommend: true
 
 # 🐫 Send 图片转链接
 
-![](https://woolson.cn/npmer/npm/version/7454c65c-2678-4ea4-9192-54d46e449fa7?name=@woolson/send) ![](https://woolson.gitee.io/npmer-badge/-555555-Star%20Me-46bc99-github-ffffff-left-square-flat-plain.svg) 👉 [GitHub](https://github.com/woolson/send)
+![](https://woolson.cn/npmer/npm/version/7454c65c-2678-4ea4-9192-54d46e449fa7?name=@woolson/send) ![](https://woolson.gitee.io/npmer-badge/-555555-Star%20Me-46bc99-github-ffffff-left-square-flat-plain.svg) [![image](https://woolson.github.io/npmer-badge/badge/ilcr-none-none-To%20GitHub-ffffff-28a745-Star-ffffff-24292e-r-f-f.svg)](https://github.com/woolson/send)
 
 > **Don't upload private pictures. 不要上传隐私图片！**
 
