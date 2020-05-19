@@ -7,7 +7,7 @@ recommend: true
 
 # 🐫 Send 图片转链接
 
- [![](https://woolson.gitee.io/npmer-badge/Version-555555-v1.6.0-44cc11-square-flat-plain.svg)](https://github.com/woolson/send) ![](https://woolson.gitee.io/npmer-badge/-555555-Star%20Me-46bc99-github-ffffff-left-square-flat-plain.svg)
+![](https://woolson.cn/npmer/npm/version/7454c65c-2678-4ea4-9192-54d46e449fa7?name=@woolson/send) ![](https://woolson.gitee.io/npmer-badge/Version-555555-v1.6.0-44cc11-square-flat-plain.svg) ![](https://woolson.gitee.io/npmer-badge/-555555-Star%20Me-46bc99-github-ffffff-left-square-flat-plain.svg)
 
 > **Don't upload private pictures. 不要上传隐私图片！**
 
@@ -16,13 +16,6 @@ recommend: true
 ```bash
 # npm install 安装
 npm install -g @woolson/send
-```
-
-```bash
-# install locally 本地安装
-git clone https://github.com/woolson/send.git
-cd send-file
-npm install -g .
 ```
 
 ## Description 描述
@@ -140,8 +133,8 @@ IMAGUR_CLIENT_ID: 1dfa83c47f8a089
 
 ```yaml
 # GitLab config GitLab配置
-GITLAB_USER_NAME: <username>
-GITLAB_USER_PASS: <password>
+# Create personal access token 创建自己Access Token: https://gitlab.com/help/user/profile/personal_access_tokens.md
+GITLAB_TOKEN: <access token>
 ```
 
 ```yaml
