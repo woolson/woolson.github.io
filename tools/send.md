@@ -18,7 +18,7 @@ recommend: true
 npm install -g @woolson/send
 ```
 
-## Description 描述
+## Source 资源
 
 ### Imgur
 
@@ -118,6 +118,23 @@ export ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
 send-img [-c, --clipboard]
 ```
 
+### Send history 上传历史记录
+
+```shell
+# List last 5 records. 列出最后5次上传记录
+send-ls
+
+# List last 5 records before <Index>. 列出<Index>之前的5条记录
+send-ls -i,--index <Index>
+
+# List last <Length> records. 列出最后<Length>条记录
+send-ls -i,--index <Index>
+
+
+# List last <Length> records before <Index>. 列出<Index>之前的<Length>条记录
+send-ls -i,--index <Index> -l,--length <Length>
+```
+
 ## Config 配置
 
 > **All config save in your computer. 所有的配置都存储在你自己的计算机中。**
@@ -134,7 +151,7 @@ IMAGUR_CLIENT_ID: 1dfa83c47f8a089
 ```yaml
 # GitLab config GitLab配置
 # Create personal access token 创建自己Access Token: https://gitlab.com/help/user/profile/personal_access_tokens.md
-GITLAB_TOKEN: <access token>
+GITLAB_TOKEN: <AccessToken>
 ```
 
 ```yaml
