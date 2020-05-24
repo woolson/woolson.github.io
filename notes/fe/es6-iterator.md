@@ -36,6 +36,7 @@ console.log(index) // ?
 我们再看下[ECMA-25.1](https://ecma262.docschina.org/#sec-iteration)对`Iterator`的定义：
 
 **Table 60: Iterable Interface Required Properties**
+
 | Property|Value|Requirements|
 |:--|:--|:--|
 |@@iterator|A function that returns an Iterator object.|The returned object must conform to the Iterator interface.|
@@ -47,6 +48,7 @@ console.log(index) // ?
 |next|A function that returns an IteratorResult object.| The returned object must conform to the IteratorResult interface. If a previous call to the next method of an Iterator has returned an IteratorResult object whose done property is true, then all subsequent calls to the next method of that object should also return an IteratorResult object whose done property is true. However, this requirement is not enforced. |
 
 **Table 66: IteratorResult Interface Properties**
+
 |Property|Value|Requirements|
 |:--|:--|:--|
 |done|Either true or false.|This is the result status of an iterator next method call. If the end of the iterator was reached done is true. If the end was not reached done is false and a value is available. If a done property (either own or inherited) does not exist, it is consider to have the value false.|
