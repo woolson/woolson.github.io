@@ -34,3 +34,20 @@
     }
   }
 }
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #17191a;
+  }
+  .main-content {
+    code {
+      background-color: rgb(27, 28, 29);
+    }
+    .highlight {
+      background: transparent;
+      pre {
+        border-color: #252627;
+        background-color: rgb(27, 28, 29);
+      }
+    }
+  }
+}
