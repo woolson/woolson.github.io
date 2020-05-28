@@ -34,6 +34,13 @@
     }
   }
 }
+.common-img-alt {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: .8em;
+  color: rgba(0, 0, 0, 0.54);
+}
 @media (prefers-color-scheme: dark) {
   html {
     background-color: #17191a;
