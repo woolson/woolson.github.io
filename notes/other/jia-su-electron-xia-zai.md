@@ -14,6 +14,7 @@ comments: true
 修改electron的镜像地址为淘宝镜像即可：
 
 ```bash
+# 添加环境变量
 export ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
 参考地址：https://jingyan.baidu.com/article/8ebacdf02d3c2949f65cd5d0.html
 ```
