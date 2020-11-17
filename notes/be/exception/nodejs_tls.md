@@ -15,7 +15,8 @@ comments: true
 - axios version: 0.21.0
 
 目的是爬虫某个网站，每天自动获取想要的信息然后推送到个人微信上。爬取某个页面的时候报错，错误信息如下：
-```http request
+
+```http
 SSL routines:ssl_choose_client_version:unsupported protocol:...
 ```
 
@@ -55,18 +56,18 @@ bootstrap();
 
 ### 在命令行中设置
 
-```shell script
+```shell
 node main.js --tls-min-v1.0
 ```
 
 ### 在`ts-node`中使用
 
-```shell script
+```shell
 node --tls-min-v1.0 -r ts-node/register src/main.ts
 ```
 
 ### 在`pm2`中使用
 
-```shell script
+```shell
 pm2 start dist/main.js --node-args \"--tls-min-v1.0\"
 ```
