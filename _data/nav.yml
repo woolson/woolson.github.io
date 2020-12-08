@@ -1,9 +1,6 @@
 - title: Home
   link: /
   show_on_mobile: true
-- title: APPs
-  link: /apps/
-  show_on_mobile: true
 - title: Tools
   link: /tools/
   show_on_mobile: true
