@@ -28,9 +28,9 @@
   {% assign sorted = (site.pages | sort: 'date') | reverse %}
   {% for post in sorted %}
     {% if post.path contains 'notes' and post.title %}
-      <li>
-        <p><a href="{{ post.url }}">{{ post.title }}</a> — {{post.date | date: "%Y-%m-%d %H:%M"}}</p>
-      </li>
+    <li>
+      <p>{{post.date | date: "%Y-%m-%d %H:%M"}} - <a href="{{ post.url }}">{{ post.title }}</a></p>
+    </li>
     {% endif %}
   {% endfor %}
 </ul>
@@ -39,9 +39,9 @@
   {% assign sorted = (site.pages | sort: 'date') | reverse %}
   {% for post in sorted %}
     {% if post.path contains 'notes/fe' and post.title %}
-      <li>
-        <p><a href="{{ post.url }}">{{ post.title }}</a> — {{post.date | date: "%Y-%m-%d %H:%M"}}</p>
-      </li>
+    <li>
+      <p>{{post.date | date: "%Y-%m-%d %H:%M"}} - <a href="{{ post.url }}">{{ post.title }}</a></p>
+    </li>
     {% endif %}
   {% endfor %}
 </ul>
@@ -49,9 +49,9 @@
   {% assign sorted = (site.pages | sort: 'date') | reverse %}
   {% for post in sorted %}
     {% if post.path contains 'notes/be' and post.title %}
-      <li>
-        <p><a href="{{ post.url }}">{{ post.title }}</a> — {{post.date | date: "%Y-%m-%d %H:%M"}}</p>
-      </li>
+    <li>
+      <p>{{post.date | date: "%Y-%m-%d %H:%M"}} - <a href="{{ post.url }}">{{ post.title }}</a></p>
+    </li>
     {% endif %}
   {% endfor %}
 </ul>
@@ -59,9 +59,9 @@
   {% assign sorted = (site.pages | sort: 'date') | reverse %}
   {% for post in sorted %}
     {% if post.path contains 'notes/other' and post.title %}
-      <li>
-        <p><a href="{{ post.url }}">{{ post.title }}</a> — {{post.date | date: "%Y-%m-%d %H:%M"}}</p>
-      </li>
+    <li>
+      <p>{{post.date | date: "%Y-%m-%d %H:%M"}} - <a href="{{ post.url }}">{{ post.title }}</a></p>
+    </li>
     {% endif %}
   {% endfor %}
 </ul>
