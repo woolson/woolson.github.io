@@ -29,8 +29,7 @@
   {% for post in sorted %}
     {% if post.path contains 'notes' and post.title %}
       <li>
-        <p>{{post.date | date: "%Y-%m-%d %H:%M"}}</p>
-        <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+        <p><a href="{{ post.url }}">{{ post.title }}</a> — {{post.date | date: "%Y-%m-%d %H:%M"}}</p>
       </li>
     {% endif %}
   {% endfor %}
@@ -41,8 +40,7 @@
   {% for post in sorted %}
     {% if post.path contains 'notes/fe' and post.title %}
       <li>
-        <p>{{post.date | date: "%Y-%m-%d %H:%M"}}</p>
-        <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+        <p><a href="{{ post.url }}">{{ post.title }}</a> — {{post.date | date: "%Y-%m-%d %H:%M"}}</p>
       </li>
     {% endif %}
   {% endfor %}
@@ -52,8 +50,7 @@
   {% for post in sorted %}
     {% if post.path contains 'notes/be' and post.title %}
       <li>
-        <p>{{post.date | date: "%Y-%m-%d %H:%M"}}</p>
-        <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+        <p><a href="{{ post.url }}">{{ post.title }}</a> — {{post.date | date: "%Y-%m-%d %H:%M"}}</p>
       </li>
     {% endif %}
   {% endfor %}
@@ -63,8 +60,7 @@
   {% for post in sorted %}
     {% if post.path contains 'notes/other' and post.title %}
       <li>
-        <p>{{post.date | date: "%Y-%m-%d %H:%M"}}</p>
-        <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+        <p><a href="{{ post.url }}">{{ post.title }}</a> — {{post.date | date: "%Y-%m-%d %H:%M"}}</p>
       </li>
     {% endif %}
   {% endfor %}
