@@ -119,6 +119,60 @@ git submodule add <repo_url> folder_name
 # 合并后提交代码即可
 ```
 
+### 5. 都有Submodule的分支之间切换
+
+切换分支后发现控制台显示有改动，如下：
+
+```shell
+➜ git status
+位于分支 feature
+您的分支与上游分支 'origin/feature' 一致。
+
+尚未暂存以备提交的变更：
+  （使用 "git add <文件>..." 更新要提交的内容）
+  （使用 "git restore <文件>..." 丢弃工作区的改动）
+        修改：     src/entities (新提交)
+
+子模组已修改但尚未更新：
+
+* src/entities 0d36f2a...e873cc6 (3):
+  < fix: 修改已知问题
+
+修改尚未加入提交（使用 "git add" 和/或 "git commit -a"）
+```
+因为切换分支的Submodule已经更新了，但是本地仓库的Submodule代码还未更新。使用已经命令更新即可：
+
+```shell
+# 如果当前分支已经使用Submodule并且已经初始化，--init可以不用
+git submodule update --init
+```
+
+### 6. 提交子模块的修改无法推到远程
+
+当我们修改的子模块代码然后进行提交，commit之后发现无法推送远程。表现为当前的HEAD为游离的。如下：
+
+```shell
+$ entities on master [!] 
+➜ git add . && git commit -m "fix: 修改表名错误和字段统一"
+[分离头指针 de0d1d2] fix: 修改表名错误和字段统一
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+$ entities on de0d1d2   
+➜ gco master
+警告：您正丢下 1 个提交，未和任何分支关联：
+
+  de0d1d2 fix: 修改表名错误和字段统一
+```
+这时候因为本地父仓库的子模块未追踪远程最新，处在游离的提交中。我们切到master，并将刚刚的提交拿过来即可。
+
+```shell
+# 1. 将刚刚的commit hash复制
+# 2. 切到master分支
+git checkout master
+# 3. 使用cherry-pick将刚刚的提交拿过来
+git cherry-pick <commit_hash>
+```
+
 ## 结论
 
 目前，这个方案还在初始阶段。刚开始的时候由于团队对submodule的使用不熟悉，会出现一些问题，耐心帮助解决即可。大家熟练了后，后面将会把更多通用代码抽离出来。
