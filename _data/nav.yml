@@ -1,12 +1,12 @@
-- title: Home
+- title: Home 首页
   link: /
   show_on_mobile: true
-- title: Tools
+- title: OS 开源
   link: /tools/
   show_on_mobile: true
-- title: Notes
+- title: Notes 笔记
   link: /notes/
   show_on_mobile: true
-- title: Share
+- title: Share 分享
   link: /share/
   show_on_mobile: false
