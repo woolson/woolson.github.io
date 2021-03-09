@@ -1,10 +1,11 @@
 ---
 description: 环境配置推荐配置、问题及解决方式
-date: 2021-03-07 17:52:39
+date: {}
 comments: true
+published: true
 ---
 
-# `MacBook`初始化
+# MacBook初始化
 
 ![macos-bigsur](https://cdn.vox-cdn.com/thumbor/hFqCK9VhE8YFcuw3RJt59HM8heM=/0x0:1080x607/1200x800/filters:focal(454x218:626x390)/cdn.vox-cdn.com/uploads/chorus_image/image/67766925/macos.0.png)
 
@@ -32,7 +33,7 @@ comments: true
 
 ## 环境
 
-### `Homebrew`
+### Homebrew
 
 > mac软件管理工具，[网站]()
 
@@ -42,7 +43,7 @@ comments: true
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-#### `Homebrew`加速
+#### Homebrew加速
 
 > 因国内网络问题，更换Homebrew镜像，使用清华大学镜像地址。
 
@@ -64,15 +65,15 @@ brew update
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 ```
 
-### `zsh`和`oh-my-zsh`
+### zsh和oh-my-zsh
 
 安装步骤[在这](https://blog.woolson.cn/notes/other/zsh-for-macos.html)。
 
-#### `spaceship-prompt`
+#### spaceship-prompt
 
 好看、实用、方便的命令行美化插件，[网站](https://github.com/denysdovhan/spaceship-prompt)。
 
-### `nvm`
+### nvm
 
 Nodejs版本管理工具，方便切换版本（如果觉得自己不经常切换版本则可不安装）[网站](https://github.com/nvm-sh/nvm)。
 
@@ -90,7 +91,7 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 - [ngrok - 映射本地服务到公网](https://www.npmjs.com/package/ngrok)
 - [tree - 命令行生成文件夹目录树]：`brew install tree`
 
-#### `electron`加速配置
+#### electron加速配置
 
 在`shell`配置文件添加以下配置：
 
