@@ -41,6 +41,31 @@
   font-size: .8em;
   color: rgba(0, 0, 0, 0.54);
 }
+.main-content.relative {
+  position: relative;
+}
+.main_toc {
+  position: absolute;
+  top: 0;
+  background: white;
+  left: 100%;
+  height: 100vh;
+  font-size: 0.8rem;
+  width: calc(50vw - 28rem);
+  padding-top: .8rem;
+}
+.main_toc > .toc_item > a {
+  font-weight: bold;
+  font-size: .9rem;
+}
+.main_toc.fixed {
+  position: fixed;
+  left: calc(50vw + 24rem);
+  top: 0;
+}
+.main_toc, .main_toc ul {
+  padding-left: 1rem;
+}
 
 // @media (prefers-color-scheme: dark) {
 //   html {
