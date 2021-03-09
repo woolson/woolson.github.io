@@ -23,7 +23,7 @@
     {%- include header.html -%}
 
     <main id="content" class="main-content" role="main">
-      {% include toc.html html=content %}
+      {% include toc.html html=content class=main_toc item_class=toc_item submenu_class=tco_sub_item %}
 
       {{ content }}
 
