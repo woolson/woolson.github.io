@@ -15,4 +15,16 @@ function convertImgAtlToSubText () {
 
 window.addEventListener('DOMContentLoaded', function() {
   convertImgAtlToSubText();
+  window.onscroll = _.debounce(function () {
+    var toc = document.querySelector('.main_toc')
+    var content = document.querySelector('#content')
+    var contentPosition = content.getBoundingClientRect()
+    if (contentPosition.top <= 0) {
+      toc.classList.add('fixed')
+      content.classList.remove('relative')
+    } else {
+      content.classList.add('relative')
+      toc.classList.remove('fixed')
+    }
+  })
 });
