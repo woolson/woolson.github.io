@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 # Woolson Blog
 
 ## Recommend 推荐
