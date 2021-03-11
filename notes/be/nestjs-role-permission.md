@@ -5,17 +5,18 @@ published: true
 comment: true
 title: NestJS权限管理实现
 ---
+![](https://i2.wp.com/blog.fossasia.org/wp-content/uploads/2017/07/Screen-Shot-2017-07-22-at-8.10.05-PM.png?fit=1240%2C480&ssl=1)
+
 ## 权限方案
 
 ### 用户权限缓存
 
-- 用户权限列表：用户登录成功后返回前端时将权限缓存到Redis里面
-- 访问接口时根据Redis权限列表进行鉴权
-- 优化并修改之前 wechat-api 接口白名单问题
+- 用户权限列表：用户登录成功后返回前端时将权限缓存到`Redis`里面
+- 访问接口时根据`Redis`权限列表进行鉴权
 
 ### 接口权限限制
 
-- 用户登录成功后，将该用户角色权限缓存到Redis（不同用户共享角色权限列表）
+- 用户登录成功后，将该用户角色权限缓存到`Redis`（不同用户共享角色权限列表）
 - 在全局守卫`Gurad`里面获取当前用户角色和角色权限列表
 - 使用`Nestjs`的`SetMetadata`设置访问接口所需权限（可多个）
 - 有权限则返回接口数据，无权限则抛出`UnAuthorizeException`异常
