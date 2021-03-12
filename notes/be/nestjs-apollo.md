@@ -84,16 +84,16 @@ db.port=0001
 
 目前配置项入住Apollo，在项目中有各种配置，大致分为三种和修改形式：
 
-1. src/common/constants/common.ts 中的静态变量配置：注意统一命名规范
-2. src/config/env 中的按环境获取的配置：需要已废弃
-3. 部分写在代码中的配置：需要废弃并迁入src/common/constants/common.ts
+1. `src/common/constants/common.ts`中的静态变量配置：注意统一命名规范
+2. `src/config/env`中的按环境获取的配置：需要已废弃
+3. 部分写在代码中的配置：需要废弃并迁入`src/common/constants/common.ts`
 
 后续这些配置需要进行整理，对配置进行整理，整理的原则为：
 
-1. 各个环境不变的配置：全部移动到 src/common/constants/common.ts 中去，注意命名规范；
+1. 各个环境不变的配置：全部移动到`src/common/constants/common.ts`中去，注意命名规范；
 2. 跟环境紧密相关的配置，需要添加到远程，按以下步骤：
-3. 在Apollo中添加配置并填写完整的备注信息，字段命名规范见下文；
-	1. 在项目代码中 Config 类型中添加该字段并添加与上一步完全相同的备注信息;
+3. 在`Apollo`中添加配置并填写完整的备注信息，字段命名规范见下文；
+	1. 在项目代码中`Config`类型中添加该字段并添加与上一步完全相同的备注信息;
     
 #### 配置样例
 
@@ -107,34 +107,34 @@ db.port=0001
 
 #### 配置规范
 
-1. 只允许定义一层到两层，e.g. keyName = value 或者 scopeName.keyName = value，**名称使用驼峰命名法**
+1. 只允许定义一层到两层，`e.g. keyName = value` 或者 `scopeName.keyName = value`，**名称使用驼峰命名法**
 2. 在项目代码中增加：
-	1. ConfigKeyEnum 中增加一层配置的 keyName 或 两层配置的 scopeName（**注意必须和Apollo命名保持一致**）并在Config 中添加该项
-	2. 如果是两层的配置，必须在 Config 接口下 添加子层级配置的类型约束，每个属性添加注释和类型（**注意必须和Apollo命名保持一致**）
+	1. `ConfigKeyEnum`中增加一层配置的`keyName`或两层配置的`scopeName`（**注意必须和`Apollo`命名保持一致**）并在`Config`中添加该项
+	2. 如果是两层的配置，必须在`Config`接口下添加子层级配置的类型约束，每个属性添加注释和类型（**注意必须和`Apollo`命名保持一致**）
     
 ```ts
 export interface ConfigKeyEnum {
-    /* Redis配置 */
-    Redis = 'redis'
-    /* 数据库配置 */
-    DB = 'db'
+  /* Redis配置 */
+  Redis = 'redis'
+  /* 数据库配置 */
+  DB = 'db'
 }
 
 export interface Config {
-    [ConfigKeyEnum.Redis]: RedisConfig,
-    [ConfigKeyEnum.DB]: DBConfig
+  [ConfigKeyEnum.Redis]: RedisConfig,
+  [ConfigKeyEnum.DB]: DBConfig
 }
 
 export interface RedisConfig {
-    /* Redis主机地址 */
-    host: string
-    port: number
-    db: number
+  /* Redis主机地址 */
+  host: string
+  port: number
+  db: number
 }
 
 export interface DBConfig {
-    host: string
-    port: number
+  host: string
+  port: number
 }
 ```
 
@@ -146,19 +146,19 @@ export interface DBConfig {
 import { getApolloConfig } from '@shinho-sh/node-apollo';
  
 (async function() {
-    const apolloConfig = await getApolloConfig({
-        apolloConfig: {
-            url: process.env.APOLLO_META,
-            token: process.env.APOLLO_ACCESSKEY_SECRET,
-            appId: APOLLO_APP_ID,
-            cluster: 'default',
-            namespace: ['application'],
-            env: EnvEnum.Dev,
-            useCache: true
-        }
-    });
+  const apolloConfig = await getApolloConfig({
+    apolloConfig: {
+      url: process.env.APOLLO_META,
+      token: process.env.APOLLO_ACCESSKEY_SECRET,
+      appId: APOLLO_APP_ID,
+      cluster: 'default',
+      namespace: ['application'],
+      env: EnvEnum.Dev,
+      useCache: true
+    }
+  });
  
-    const app = await NestFactory.create(AppModule);
+  const app = await NestFactory.create(AppModule);
 })();
 ```
 
@@ -168,50 +168,50 @@ import { getApolloConfig } from '@shinho-sh/node-apollo';
 // config.helper.ts
 // 将ConfigModule及配置注入到全局
 export function registerConfig({ config, configEnum }: RegisterOptions) {
-    const baseConfig = ConfigModule.forRoot(config);
-    const configProviders = Object.keys(configEnum).map(item => {
-        return {
-            provide: configEnum[item],
-            useFactory(configService: ConfigService) {
-                return configService.get(configEnum[item]);
-            },
-            inject: [ConfigService],
-        };
-    });
-    baseConfig.providers.push(...configProviders);
-    baseConfig.exports.push(...configProviders.map(o => o.provide));
-    return baseConfig;
+  const baseConfig = ConfigModule.forRoot(config);
+  const configProviders = Object.keys(configEnum).map(item => {
+    return {
+      provide: configEnum[item],
+      useFactory(configService: ConfigService) {
+        return configService.get(configEnum[item]);
+      },
+      inject: [ConfigService],
+    };
+  });
+  baseConfig.providers.push(...configProviders);
+  baseConfig.exports.push(...configProviders.map(o => o.provide));
+  return baseConfig;
 }
  
  
 export function setupConfig () {
-    // ...做一下其他的预处理或处理环境变量
-    const config = await setApolloIntoEnv({
-        apolloConfig: {
-            url: process.env.APOLLO_META,
-            token: process.env.APOLLO_ACCESSKEY_SECRET,
-            appId: APOLLO_APP_ID,
-            cluster: 'default',
-            namespace: ['application'],
-        },
-        coverValue: coverValue,
-    });
-    return config
+  // ...做一下其他的预处理或处理环境变量
+  const config = await setApolloIntoEnv({
+    apolloConfig: {
+      url: process.env.APOLLO_META,
+      token: process.env.APOLLO_ACCESSKEY_SECRET,
+      appId: APOLLO_APP_ID,
+      cluster: 'default',
+      namespace: ['application'],
+    },
+    coverValue: coverValue,
+  });
+  return config
 }
  
  
 // app.module.ts
 @Global()
 @Module({
-    imports: [
-        registerConfig({
-            config: {
-                isGlobal: true,
-                load: [setupConfig],
-            },
-            configEnum: ConfigKeyEnum,
-        })
-    ],
+  imports: [
+    registerConfig({
+      config: {
+        isGlobal: true,
+        load: [setupConfig],
+      },
+      configEnum: ConfigKeyEnum,
+    })
+  ],
 })
 export class AppModule {}
  
@@ -219,14 +219,14 @@ export class AppModule {}
 // some.service.ts
 @Injectable()
 export class SomeServie {
-    constructor (
-        /* 注入配置 */
-        @Inject(ConfigKeyEnum.DB)
-        private readonly dbConfig: Config[ConfigKeyEnum.DB]
-    ) {
-        /* 使用 */
-        this.dbConfig.host
-    }
+  constructor (
+    /* 注入配置 */
+    @Inject(ConfigKeyEnum.DB)
+    private readonly dbConfig: Config[ConfigKeyEnum.DB]
+  ) {
+    /* 使用 */
+    this.dbConfig.host
+  }
 }
 ```
 
@@ -245,18 +245,18 @@ redis.index = 1
 import { getApolloConfig } from '@shinho-sh/node-apollo';
  
 (async function() {
-    const apolloConfig = await getApolloConfig({
-        apolloConfig: {
-            ...// config
-        },
-        // 覆盖配置
-        coverValue: {
-            "redis.host": "<Custom Value>",
-            "redis.port": "<Custom Value>",
-        }
-    });
- 
-    const app = await NestFactory.create(AppModule);
+  const apolloConfig = await getApolloConfig({
+    apolloConfig: {
+        ...// config
+    },
+    // 覆盖配置
+    coverValue: {
+      "redis.host": "<Custom Value>",
+      "redis.port": "<Custom Value>",
+    }
+  });
+
+  const app = await NestFactory.create(AppModule);
 })();
 ```
 
