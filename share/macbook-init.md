@@ -3,24 +3,29 @@ description: 环境配置推荐配置、问题及解决方式
 date: 2021-03-07T17:52:39.000Z
 comments: true
 published: true
+title: MacBook初始化
 ---
-
-# MacBook初始化
-
 ![macos-bigsur](https://cdn.vox-cdn.com/thumbor/hFqCK9VhE8YFcuw3RJt59HM8heM=/0x0:1080x607/1200x800/filters:focal(454x218:626x390)/cdn.vox-cdn.com/uploads/chorus_image/image/67766925/macos.0.png)
 
 ## 软件
 
 ### 效率
+
 - [Alfred - 工作流效率神器](https://www.alfredapp.com/)
 - [Bartender - 菜单栏图标管理](https://www.macbartender.com/)
 - [Dropover - 文件拖放效率](https://apps.apple.com/cn/app/dropover-%E6%9B%B4%E5%8A%A0%E5%AE%B9%E6%98%93%E6%8B%96%E6%94%BE%E6%96%87%E4%BB%B6/id1355679052?mt=12)
 - [Magnet - 窗口管理神器](https://apps.apple.com/cn/app/magnet/id441258766?mt=12)
+- [休息一下 - 缓解疲劳提醒工具](https://apps.apple.com/cn/app/%E4%BC%91%E6%81%AF%E4%B8%80%E4%B8%8B-%E7%BC%93%E8%A7%A3%E7%96%B2%E5%8A%B3%E6%8F%90%E9%86%92%E5%B7%A5%E5%85%B7/id1457158844?mt=12)
+- [MonitorControl - Mac键盘控制外接显示器亮度](https://github.com/MonitorControl/MonitorControl)
+- [Paste - 剪贴板历史记录软件](https://apps.apple.com/cn/app/paste-clipboard-manager/id967805235)
+- [Karabiner - 键位修改软件](https://karabiner-elements.pqrs.org/)
 
 ### 网络
+
 - [ClashX - 好用的VPN链接软件](https://github.com/yichengchen/clashX)
 
 ### 开发
+
 - [VScode - 开发编辑器](https://code.visualstudio.com/)
 - [Datagrip - 数据库可视化界面](https://www.jetbrains.com/datagrip/)
   - 破解和无限期试用
@@ -30,6 +35,8 @@ published: true
   - [Google 翻译](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
   - [JSONView - JSON数据结构化展示](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
   - [Vimium - 网页支持vim操作](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
+- [Pikka - 吸色软件](https://apps.apple.com/cn/app/pikka-color-picker/id1195076754?mt=12)
+- [Kaleidoscope - 文件内容对比软件](https://kaleidoscope.app/) 
 
 ## 环境
 
