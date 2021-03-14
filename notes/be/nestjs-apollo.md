@@ -1,8 +1,9 @@
 ---
 title: NodeJS使用Apollo
 description: 封装Apollo接口为Node Package以方便使用
-date: 2021-03-12 15:54:50
+date: {}
 comments: true
+published: true
 ---
 
 ## 前言
@@ -52,7 +53,6 @@ db.port=0001
 #### 将YAML数据转成Json
 
 ```json
-// 
 {
   "redis.host": "redis.com",
   "redis.port": "0001",
@@ -68,12 +68,12 @@ db.port=0001
 {
   redis: {
     host: "redis.com",
-  	port: "0001",
-  	db: "1"
+    port: "0001",
+    db: "1"
   },
   db: {
     host: "dbhost.com",
-  	port: "0001"
+    port: "0001"
   }
 }
 ```
