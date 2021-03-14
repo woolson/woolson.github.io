@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
-title: Woolson Blog
+title: Woolson
 description: 道虽迩，不行不至，事虽小，不为不成。
 plugins:
 - jekyll-feed
