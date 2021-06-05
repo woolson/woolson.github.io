@@ -1,7 +1,9 @@
 ---
 description: 使用binlog被注释掉的SQL恢复数据
-date: 2021-06-05 10:51:50
+date: 2021-06-05T10:51:50.000Z
 comments: true
+published: true
+title: 一次MySQL数据恢复经验
 ---
 
 ## 前言
