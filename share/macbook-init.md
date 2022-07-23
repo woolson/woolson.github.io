@@ -76,6 +76,13 @@ export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bott
 
 安装步骤[在这](https://blog.woolson.cn/notes/other/zsh-for-macos.html)。
 
+#### 常用命令别名
+
+```shell
+# 将别名追加到zshrc配置文件中
+curl "https://gist.githubusercontent.com/woolson/d66ea627024ff3ebfd3ed06e676650d6/raw/44b6c4dc767e402205fc3a2c34ecf35da65e0252/.zshrc" >> ~/.zshrc
+```
+
 #### spaceship-prompt
 
 好看、实用、方便的命令行美化插件，[网站](https://github.com/denysdovhan/spaceship-prompt)。
