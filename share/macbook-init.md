@@ -54,6 +54,8 @@ title: MacBook初始化
 
 > 因国内网络问题，更换Homebrew镜像，使用清华大学镜像地址。
 
+**使用这个方式，一件安装：https://zhuanlan.zhihu.com/p/111014448**
+
 在命令行`Terminal`中执行以下命令以进行修改：
 
 ```shell
