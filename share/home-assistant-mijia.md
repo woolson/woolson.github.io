@@ -6,7 +6,7 @@ published: true
 title: 使用HomeAssistant连接米家和HomeKit
 ---
 
-作为一名合格的数码爱好者，家里很多电器买的都是智能产品，这块的产品选择米家最经济实惠，但是自己使用的电脑和手机都是苹果的。最近买了个HomePod Mini，想通过Siri来控制家里的电器。
+作为一名数码爱好者，家里很多电器买的都是智能产品，这块的产品选择米家最经济实惠，但是自己使用的电脑和手机都是苹果的。最近买了个HomePod Mini，想通过Siri来控制家里的电器。
 
 在之前有找过怎么在iOS家庭中控制米家生态设备，找到了很火的 [Home Assistant](https://www.home-assistant.io/) 就简单了解过
 ，这次动手来实现他。
