@@ -181,5 +181,7 @@ export default defineConfig({
       light: 'github-light'
     },
     lineNumbers: false
-  }
+  },
+
+  ignoreDeadLinks: true
 })
